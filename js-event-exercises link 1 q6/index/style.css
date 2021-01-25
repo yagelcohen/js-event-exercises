@@ -1,0 +1,25 @@
+.continer{
+    width: 80%;
+    text-align: center;
+}
+#section1{
+    background-color: teal;
+}
+#section2{
+    background-color: teal;
+}
+#section3{
+    background-color: teal;
+}
+#button1{
+    position: relative;
+    left:750px;
+}
+#button2{
+    position: relative;
+    left:750px;
+}
+#button3{
+    position: relative;
+    left:750px;
+}
