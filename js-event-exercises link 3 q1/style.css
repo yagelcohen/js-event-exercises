@@ -1,0 +1,12 @@
+.container{
+    width: 80%;
+    text-align: center;
+}
+.section{
+    background-color: teal;
+}
+
+#button{
+    position: relative;
+    left:750px;
+}
