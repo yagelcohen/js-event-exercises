@@ -1,9 +1,7 @@
-.container{
-    width: 80%;
-    text-align: center;
-}
 .section{
     background-color: teal;
+    width: 80%;
+    text-align: center;
 }
 
 #button{
