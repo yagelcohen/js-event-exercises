@@ -1,15 +1,19 @@
-const link = document.querySelector('a')
+const a = document.querySelector("a")
+a.addEventListener("click", (Event) =>{
+    const exit = confirm(
+        `are you sure you want go to ${a.getAttribute("href")}?`)
+    if(!exit){Event.preventDefault()}
+});
 
-link.addEventListener('click', exit )
 
-function exit(){
-    if(confirm("are you sure you want exit?") === true)
-    {link;
-    }else{
-        
-    }
 
-}
-
+// const array = document.querySelectorAll("A")
+// for (const a of array){
+// a.addEventListener("click", (event) =>{
+//     const exit = confirm(
+//         `are you sure you want go to ${a.getAttribute("href")}?`)
+//     if(!exit){event.preventDefault()}
+// });
+// }
 
 
